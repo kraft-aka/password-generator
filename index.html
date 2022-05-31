@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Password Generator</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="container-text">
+      <h2>Generate a <br /><span>random password</span> </h2>
+      <p id="par">Never use an insequre password again.</p>
+    </div>
+    <button id="button-el" onclick="generatePasswords()"> Generate new password</button>
+    <button id="button-el-length" onclick="lengthOfPassword()">Set length of password </button>
+    <p id="count">...</p>
+    <hr />
+    <div class="grid-container">
+      <div class="grid-item">
+        <p id="one">...</p>
+      </div>
+      <div class="grid-item">
+        <p id="two">...</p>
+      </div>
+      <div class="grid-item">
+        <p id="three">...</p>
+      </div>
+      <div class="grid-item">
+        <p id="four">...</p>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
